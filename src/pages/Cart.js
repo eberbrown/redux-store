@@ -3,7 +3,7 @@ import { CartCard } from "../components";
 import { useSelector } from "react-redux";
 
 export const Cart = () => {
-  useTitle("Cart");
+  useTitle("Cart-Redux-Store");
 
   const cartList = useSelector(state => state.cartState.cartList);
   const total = useSelector(state => state.cartState.total);
